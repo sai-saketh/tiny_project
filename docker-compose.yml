@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  tinyproject:
+    image: tinyproject
+    build:
+      context: .
+      dockerfile: ./Dockerfile
